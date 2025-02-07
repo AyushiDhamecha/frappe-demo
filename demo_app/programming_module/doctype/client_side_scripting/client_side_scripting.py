@@ -9,29 +9,29 @@ from frappe.model.document import Document
 class ClientSideScripting(Document):
 		pass
 
-@frappe.whitelist()
-def insert_record():
-	data = frappe.new_doc("Client Side Scripting")
-	data.first_name = 'Jake'
-	data.last_name = 'Jay'
+# @frappe.whitelist()
+# def insert_record():
+# 	data = frappe.new_doc("Client Side Scripting")
+# 	data.first_name = 'Jake'
+# 	data.last_name = 'Jay'
 	
 
-	data.insert()
+# 	data.insert()
 
-	# data.db.commit()
-	return "Record inserted successfully"
+# 	# data.db.commit()
+# 	return "Record inserted successfully"
 
 # 	def validate(self):
 # 		self.pass
 
 	
 
-# # @frappe.whitelist()
-# # def frappe_call(msg):
+# @frappe.whitelist()
+# def frappe_call(msg):
 
-# # 		# frappe.msgprint(msg)
-# # 		# self.mobail_no = 76546267367
-# # 	return "Hii this massege from frappe_call"
+# 		# frappe.msgprint(msg)
+# 		# self.mobail_no = 76546267367
+# 	return "Hii this massege from frappe_call"
 
 # @frappe.whitelist()
 # def new_document(self):

@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:artical_name",
+ "creation": "2025-02-07 10:06:52.622567",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_x676",
+  "artical_name",
+  "image",
+  "author",
+  "description",
+  "status",
+  "publisher",
+  "route",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_x676",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "artical_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Artical Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "author",
+   "fieldtype": "Data",
+   "label": "Author"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Pending\nApproved\nRejected",
+   "sort_options": 1
+  },
+  {
+   "fieldname": "publisher",
+   "fieldtype": "Data",
+   "label": "Publisher"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Artical",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "has_web_view": 1,
+ "image_field": "image",
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-02-07 16:41:49.213062",
+ "modified_by": "Administrator",
+ "module": "programming Module",
+ "name": "Artical",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Librarian",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Library Member",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "route": "articles",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

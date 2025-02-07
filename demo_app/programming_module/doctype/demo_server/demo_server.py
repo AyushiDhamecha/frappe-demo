@@ -16,6 +16,6 @@ def insert_record():
 	
 
 	data.insert()
-
+	
 	# data.db.commit()
 	return "Record inserted successfully"

@@ -85,15 +85,16 @@ frappe.ui.form.on("Client Side Scripting", {
     //     }
     // }
 
-    // validate:function(frm){
-    //     frm.set_value('full_name',frm.doc.first_name+" "+frm.doc.middle_name+" "+frm.doc.last_name)
+    validate:function(frm){
+        frm.set_value('full_name',frm.doc.first_name+" "+frm.doc.middle_name+" "+frm.doc.last_name)
 
-    //     let row = frm.add_child('family_members',{
-    //         name1:'john',
-    //         relation:'father',
-    //         age:44,
-    //     })
-    // }
+        // frm.full_name = frm.doc.first_name+" "+frm.doc.middle_name+" "+frm.doc.last_name
+        // let row = frm.add_child('family_members',{
+        //     name1:'john',
+        //     relation:'father',
+        //     age:44,
+        // })
+    }
     
 
     /////////////////////////////////   Custom  Button   /////////////////////////////////////////////

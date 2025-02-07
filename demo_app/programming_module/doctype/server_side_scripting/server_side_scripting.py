@@ -8,14 +8,14 @@ from frappe.model.document import Document
 
 # --------------------------- Events -------------------------------------------
 
-# class ServerSideScripting(Document):
+class ServerSideScripting(Document):
 # --------------------------------- frm call -----------------------------------------
-# 	@frappe.whitelist()
-# 	def frm_call(self,msg): 
+	# @frappe.whitelist()
+	# def frm_call(self,msg): 
 
-# 		# frappe.msgprint(msg)
-# 		# self.mobail_no = 76546267367
-# 		return "Hii this massege from frm_call"
+	# 	# frappe.msgprint(msg)
+	# 	# self.mobail_no = 76546267367
+	# 	return "Hii this massege from frm_call"
 
 	# def validate(self):
 	# 	frappe.msgprint("Hello")	
@@ -131,3 +131,23 @@ from frappe.model.document import Document
 
 # ----------------------------------------------------------------------------------------------------
 
+# --------------------------------------------Controllers----------------------------------------------
+
+	# def validate(self):
+	# 	self.get_full_name()
+
+	# def get_full_name(self):
+    #     """Returns the person's full name"""
+    #     return  f"{self.first_name} {self.last_name}"
+
+
+
+    # def validate(self):
+    #     if self.age <= 18:
+    #         frappe.throw("Person's age must be at least 18")
+
+	def before_save(self):
+		self.full_name = f'{self.first_name} {self.last_name}'
+
+	def after_insert(self):
+		frappe.msgprint("Thank you for registering")
