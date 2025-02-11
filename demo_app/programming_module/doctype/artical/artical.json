@@ -16,6 +16,7 @@
   "status",
   "publisher",
   "route",
+  "published",
   "amended_from"
  ],
  "fields": [
@@ -50,7 +51,7 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "Pending\nApproved\nRejected",
+   "options": "Available\nIssued\nPending",
    "sort_options": 1
   },
   {
@@ -62,6 +63,12 @@
    "fieldname": "route",
    "fieldtype": "Data",
    "label": "Route"
+  },
+  {
+   "default": "0",
+   "fieldname": "published",
+   "fieldtype": "Check",
+   "label": "Published"
   },
   {
    "fieldname": "amended_from",
@@ -77,9 +84,10 @@
  "has_web_view": 1,
  "image_field": "image",
  "index_web_pages_for_search": 1,
+ "is_published_field": "published",
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-07 16:41:49.213062",
+ "modified": "2025-02-10 11:07:44.767078",
  "modified_by": "Administrator",
  "module": "programming Module",
  "name": "Artical",
