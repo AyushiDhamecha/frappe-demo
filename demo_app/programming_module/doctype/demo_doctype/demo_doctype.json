@@ -21,8 +21,9 @@
  ],
  "fields": [
   {
+   "fetch_from": "link.first_name",
    "fieldname": "first_name",
-   "fieldtype": "Text",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "label": "First name",
    "reqd": 1
@@ -77,7 +78,7 @@
    "fieldname": "link",
    "fieldtype": "Link",
    "label": "Link",
-   "options": "ToDo"
+   "options": "Demo_Client"
   },
   {
    "fieldname": "rating",
@@ -91,7 +92,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-31 12:20:54.143806",
+ "modified": "2025-02-11 17:17:29.672507",
  "modified_by": "Administrator",
  "module": "programming Module",
  "name": "Demo Doctype",

@@ -142,12 +142,12 @@ class ServerSideScripting(Document):
 
 
 
-    # def validate(self):
-    #     if self.age <= 18:
-    #         frappe.throw("Person's age must be at least 18")
+    def validate(self):
+        if self.age <= 18:
+            frappe.throw("Person's age must be at least 18")
 
-	def before_save(self):
-		self.full_name = f'{self.first_name} {self.last_name}'
+	# def before_save(self):
+	# 	self.full_name = f'{self.first_name} {self.last_name}'
 
-	def after_insert(self):
-		frappe.msgprint("Thank you for registering")
+	# def after_insert(self):
+	# 	frappe.msgprint("Thank you for registering")
