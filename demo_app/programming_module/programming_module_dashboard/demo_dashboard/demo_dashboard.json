@@ -1,0 +1,58 @@
+{
+ "cards": [
+  {
+   "card": "Demo Card One"
+  },
+  {
+   "card": "Card two"
+  },
+  {
+   "card": "Demo Cart Three"
+  },
+  {
+   "card": "Demo Card Five"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Demo Chart One",
+   "width": "Half"
+  },
+  {
+   "chart": "Demo Chart Two",
+   "width": "Half"
+  },
+  {
+   "chart": "Demo Chart Three",
+   "width": "Half"
+  },
+  {
+   "chart": "Demo Chart Four",
+   "width": "Half"
+  },
+  {
+   "chart": "Demo Chart Five",
+   "width": "Half"
+  },
+  {
+   "chart": "Demo Chart Six",
+   "width": "Full"
+  },
+  {
+   "chart": "Demo Chart Report",
+   "width": "Full"
+  }
+ ],
+ "creation": "2025-02-13 12:37:28.469636",
+ "dashboard_name": "Demo Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2025-02-13 16:13:36.305880",
+ "modified_by": "Administrator",
+ "module": "programming Module",
+ "name": "Demo Dashboard",
+ "owner": "Administrator"
+}
