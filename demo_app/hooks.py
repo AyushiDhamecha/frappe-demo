@@ -5,6 +5,7 @@ app_description = "it is a demo app"
 app_email = "ayushi@sanskartechnolab.com"
 app_license = "mit"
 
+fixtures = ["Report"]
 # Apps
 # ------------------
 

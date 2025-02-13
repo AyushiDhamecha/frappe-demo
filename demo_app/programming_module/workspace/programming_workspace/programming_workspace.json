@@ -1,0 +1,103 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"oVN-R-TinM\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Programming Workspace</span>\",\"col\":12}},{\"id\":\"lxWi7lRfzI\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"8cmso4wnAY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Normal Doctype\",\"col\":3}},{\"id\":\"HHb8XaxvDR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Single Doctype\",\"col\":3}},{\"id\":\"HUb8ttXOAw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Submittable Doctype\",\"col\":3}},{\"id\":\"Gy9uZO20k6\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"xb3gDssXAw\",\"type\":\"card\",\"data\":{\"card_name\":\"Doctype\",\"col\":4}}]",
+ "creation": "2025-02-13 17:06:55.628218",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "sidebar-expand",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Programming Workspace",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Normal Doctype",
+   "link_count": 0,
+   "link_to": "Demo Doctype",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Single Doctype",
+   "link_count": 0,
+   "link_to": "Single Doc",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Doctype",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Demo_client Doctype",
+   "link_count": 0,
+   "link_to": "Demo_Client",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Submittable Doctype",
+   "link_count": 0,
+   "link_to": "Submittable Doc",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-02-13 17:56:23.891277",
+ "modified_by": "Administrator",
+ "module": "programming Module",
+ "name": "Programming Workspace",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Single Doctype",
+   "link_to": "Single Doc",
+   "type": "DocType"
+  },
+  {
+   "color": "Pink",
+   "doc_view": "List",
+   "label": "Submittable Doctype",
+   "link_to": "Submittable Doc",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Normal Doctype",
+   "link_to": "Demo Doctype",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Programming Workspace"
+}
