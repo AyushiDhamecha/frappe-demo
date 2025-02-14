@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "EXP-.###",
+ "creation": "2025-02-14 10:31:26.632999",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "date_1",
+  "date_2",
+  "date_diffrence",
+  "month_diffrence",
+  "money",
+  "money_in_words"
+ ],
+ "fields": [
+  {
+   "fieldname": "date_1",
+   "fieldtype": "Date",
+   "label": "date 1"
+  },
+  {
+   "fieldname": "date_2",
+   "fieldtype": "Date",
+   "label": "date 2"
+  },
+  {
+   "fieldname": "date_diffrence",
+   "fieldtype": "Read Only",
+   "label": "Date Diffrence"
+  },
+  {
+   "fieldname": "month_diffrence",
+   "fieldtype": "Read Only",
+   "label": "Month Diffrence"
+  },
+  {
+   "fieldname": "money",
+   "fieldtype": "Int",
+   "label": "Money"
+  },
+  {
+   "fieldname": "money_in_words",
+   "fieldtype": "Read Only",
+   "label": "Money in Words"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-14 12:32:48.598602",
+ "modified_by": "Administrator",
+ "module": "programming Module",
+ "name": "Utils Function",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
