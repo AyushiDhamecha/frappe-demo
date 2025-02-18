@@ -1,6 +1,11 @@
 {% extends "templates/web.html" %}
 
 {% block page_content %}
-    <h1>{{ title }}</h1>
-    <p>{{ message }}</p>
-{% endblock %}
+    
+{% for user in users %}
+
+<h3> {{ user.first_name }}   {{frappe.format_date('2019-09-08')  }}  {{frappe.get_url()}}</h3><br><br>
+
+
+{% endfor %}
+{% endblock %}  

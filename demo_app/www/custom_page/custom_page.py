@@ -1,5 +1,5 @@
 import frappe
 
 def get_context(context):
-    context.title = "Dynamic Page"
-    context.message = "This is a dynamically generated page in Frappe." 
+    context.users = frappe.get_list("Server Side Scripting", fields=["first_name", "date"])
+ 
