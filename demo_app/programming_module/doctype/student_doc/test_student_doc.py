@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestCharts(FrappeTestCase):
+class TestStudentDoc(FrappeTestCase):
 	pass

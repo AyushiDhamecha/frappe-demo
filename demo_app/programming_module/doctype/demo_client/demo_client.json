@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
  "allow_rename": 1,
  "creation": "2025-02-05 16:25:02.738976",
  "doctype": "DocType",
@@ -9,7 +10,10 @@
   "first_name",
   "middle_name",
   "last_name",
-  "price"
+  "price",
+  "route",
+  "published",
+  "amended_from"
  ],
  "fields": [
   {
@@ -45,12 +49,33 @@
    "fieldname": "price",
    "fieldtype": "Int",
    "label": "price"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "default": "0",
+   "fieldname": "published",
+   "fieldtype": "Check",
+   "label": "Published"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Demo_Client",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-11 12:13:48.288173",
+ "modified": "2025-02-17 14:47:47.631682",
  "modified_by": "Administrator",
  "module": "programming Module",
  "name": "Demo_Client",

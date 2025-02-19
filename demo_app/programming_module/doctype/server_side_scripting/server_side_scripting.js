@@ -77,4 +77,15 @@ frappe.ui.form.on("Server Side Scripting", {
 //         });
 // },
 // });
+
+
+frappe.prompt({
+    label: 'Birth Date',
+    fieldname: 'date',
+    fieldtype: 'Date'
+}, (values) => {
+    console.log(values.date);
+    frappe.msgprint()
+})
+
 // -------------------------------------------------------------------------------------------------------------------------

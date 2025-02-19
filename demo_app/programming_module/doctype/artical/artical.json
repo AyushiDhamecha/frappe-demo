@@ -87,7 +87,7 @@
  "is_published_field": "published",
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-10 11:07:44.767078",
+ "modified": "2025-02-17 15:28:42.598838",
  "modified_by": "Administrator",
  "module": "programming Module",
  "name": "Artical",
@@ -133,5 +133,6 @@
  "route": "articles",
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1
 }

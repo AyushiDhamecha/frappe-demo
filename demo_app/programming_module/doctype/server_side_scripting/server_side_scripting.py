@@ -3,6 +3,7 @@
 
 import frappe
 from frappe import _
+from frappe.utils import today
 from frappe.model.document import Document	
 
 
@@ -142,12 +143,12 @@ class ServerSideScripting(Document):
 
 
 
-    def validate(self):
-        if self.age <= 18:
-            frappe.throw("Person's age must be at least 18")
+    # def validate(self):
+    #     self.date = today()
 
-	# def before_save(self):
-	# 	self.full_name = f'{self.first_name} {self.last_name}'
+	def before_save(self):
+		self.full_name = f'{self.first_name} {self.last_name}'
 
 	# def after_insert(self):
 	# 	frappe.msgprint("Thank you for registering")
+

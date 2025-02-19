@@ -5,7 +5,7 @@
 {% for user in users %}
 
 <h3> {{ user.first_name }}   {{frappe.format_date('2019-09-08')  }}  {{frappe.get_url()}}</h3><br><br>
-
+<div id="chart"></div>
 
 {% endfor %}
 {% endblock %}  

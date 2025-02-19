@@ -17,10 +17,10 @@
   "mobail_no",
   "dob",
   "age",
+  "date",
   "section_break_qcuw",
   "family_members",
   "tab_2_tab",
-  "amended_from",
   "amended_from"
  ],
  "fields": [
@@ -108,16 +108,21 @@
    "fieldtype": "Link",
    "label": "Amended From",
    "no_copy": 1,
-   "options": "Server Side Scripting",
+   "options": "Client Side Scripting",
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-05 15:35:59.662015",
+ "modified": "2025-02-14 10:54:54.356087",
  "modified_by": "Administrator",
  "module": "programming Module",
  "name": "Server Side Scripting",
